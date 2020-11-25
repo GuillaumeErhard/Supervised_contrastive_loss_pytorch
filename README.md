@@ -1,7 +1,7 @@
 <h1 align="center">Supervised Contrastive Loss Pytorch</h1>
 
 <div align="center">
-  <img width="50%" alt="SimCLR Illustration" src="https://github.com/GuillaumeErhard/Supervised_contrastive_loss_pytorch/tree/master/plots/representation_animation.gif">
+  <img width="50%" alt="SimCLR Illustration" src="https://github.com/GuillaumeErhard/Supervised_contrastive_loss_pytorch/tree/main/images/representation_animation.gif">
 </div>
 
 This is an independent reimplementation of the [Supervised Contrastive Learning](https://arxiv.org/abs/2004.11362) paper.   

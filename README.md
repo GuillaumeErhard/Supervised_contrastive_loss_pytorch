@@ -87,7 +87,7 @@ parameter tuning for computation. All result presented here only needed one trai
 You just need to decrease the learning rate along the way, whereas with cross-entropy I had to rerun the experiment 
 on average 3 times with different learning rate strategy to get the best result shown.  
 The other thing that seems to emerge from this paper is that it seems that this method is one of the best in a tabula rasa 
-approach. But you can look also in [GradAug](https://arxiv.org/abs/2006.07989) [CutMix](https://arxiv.org/abs/1905.04899) or [Bag of tricks](https://arxiv.org/abs/1812.01187). So it might be a great fit when you are dealing with a problem with non standard images i.e no ILSRVC-2012
+approach. But you can look also in [GradAug](https://arxiv.org/abs/2006.07989), [CutMix](https://arxiv.org/abs/1905.04899) or [Bag of tricks](https://arxiv.org/abs/1812.01187). So it might be a great fit when you are dealing with a problem with non standard images i.e no ILSRVC-2012
 like dataset available to pretrained on and it is difficult to collect a ton of unlabelled data also. In the case where you can 
 gather a lot of unlabelled data you might have better result with semi-supervised approach like 
 [SimCLRv2](https://arxiv.org/abs/2006.10029) or [BYOL](https://arxiv.org/abs/2006.07733). But I guess if 
